@@ -1,6 +1,6 @@
-#Pruebas realizadas para ofrecer el servicio de Chat Seguro.
+# Pruebas realizadas para ofrecer el servicio de Chat Seguro.
 
-#Clientes
+## Clientes
 
 El chat seguro depende de la implementación y que tan completa es la implementación de los clientes. 
 
@@ -16,9 +16,9 @@ Gajim, es el cliente mas completo de linux sobretodo por que es el que soporta c
 la implementación es la seguridad. Este cliente sin emabrgo tiene algunos errores como que no es posible agregar 
 grupos de chat para que se queden permanentes.
 
-#Servidores
+## Servidores
 
-##Ejabberd
+### Ejabberd
 Se probó el servidor ejabberd, el cual es un servidor que está construido para grandes desarrollos, ya que soporta 
 caractersiticas como la clusterización y la federación de servicios. Además este tiene una interfaz web ( que no 
 es fácil de usar para el usuario final ) con la cual se pueden configurar algunas de las características del 
@@ -32,7 +32,7 @@ Parece ser que tiene integrada una base de datos para guardar tanato los usuario
 la conexión con otras bases de datos como Mysql y Postresql. En todo caso me parece que esto depende obviament del 
 tamaño de la implementación. 
 
-##Prosody.
+### Prosody.
 
 Este servidor es minimalista, y esta diseñado para implementaciones pequeñas, no posee por ejemplo una interrfaz 
 web y el agregar usuarios se hace ediante comandos ( una desventaja) desconozco si existen UIs web que se puedan 
@@ -43,7 +43,7 @@ Está escrito en Lua.
 
 Este servidor también viene incluido en Debian. 
 
-##Openfire
+### Openfire
 
 Este servidor promete ser fácil de configurar. No lo he checado. 
 
