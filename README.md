@@ -28,13 +28,13 @@ Trabajamos sobretodo con Software Libre, además de con software de Código abie
 
 ## Productos especializados. 
 
--Consultoria en Seguridad digital. 
+- Consultoria en Seguridad digital. 
 
 	Seguridad digital para activistas de Derechos Humanos. Hacemos desde auditorías de software, hasta
 	capacitación del personal de la organización en autodefensa digital, con el fin de disminuir la 
 	vulnerabilidad así como de reaccionar ante posibles ataques. 
 
--Migración a software libre.
+- Migración a software libre.
 
 	Migración de sistemas desde Windows y Apple y otras marcas, a software libre y de código abierto tal como 
 	Gnu/linux Debian en computadoras de escritorio. Incluye la capacitación, cifrado de datos de computadoras e 
@@ -42,7 +42,7 @@ Trabajamos sobretodo con Software Libre, además de con software de Código abie
 	
 	Introducción al ecosistema abierto en los smartphones.
 
--Análisis de datos de Información de las ONGs
+- Análisis de datos de Información de las ONGs
 	
 	Ofrecemos analisis de bases de datos a las ONG's que lo requieran usando la tecnología digital con el fin 
 	de facilitar el análisis de la información y la automatización de procesos. Sabemos el valor de la 
@@ -50,21 +50,21 @@ Trabajamos sobretodo con Software Libre, además de con software de Código abie
 	consultoría sobre el manejo de la información para incidir en la política de datos 
 	abiertos, si la ONG es generador de la información.
 
--Manejo de archivos digitales y digitalización de la memoria.
+- Manejo de archivos digitales y digitalización de la memoria.
 
 	Ofrecemos consultoría en digitalizar archivos, así como las políticas adecuadas para la conservación a 	
 	largo y corto plazo de los documentos importantes de la organización en el entorno digital. Esto incluye 
 	desde las políticas de almacenamiento, hasta las políticas de uso de formatos, ciberseguridad manejo de 
 	bases de datos y controles de acceso.
 
--Chat seguro para organizaciones. 
+- Chat seguro para organizaciones. 
 	
 	Chat para que las comunicaciones dentro de la organización permanezcan privadas. Ofreciendo total control 	
 	a los miembros de la organización, ya que los servidores permanecerán bajo su control. El chat busca
 	sustituir y/o complementar las comunicaciones que una organización tenga con otros servicios como WhatsApp
 	Facebook Chat, Telegram, etc.
 
--Erp para ONGs
+- Erp para ONGs
 	
 	ERP para las ONG que permite una mejor gestión de los recurso de la organización. Sabemos que las ONG's 
 	también deben beneficiarse de los avances tecnológicos que están siendo usados en otras áreas, por lo que 
@@ -74,15 +74,18 @@ Trabajamos sobretodo con Software Libre, además de con software de Código abie
 
 	Analisis de tendencias en Twitter usando la API de Twitter.
 
+- Diseño de páginas web.
+
+	Ofrecemos crear páginas web. Adicionalmente tomamos en cuenta las necesidades de la organización, como el 
+	presupuesto, y la seguridad digital que es fundamental en las organizaciones. 
+	
 - Microservicios de "nube"
 	
 	Ofrecemos la instalación de servicios federados y bajo el control de las organizaciones, creando y 
 	cuestionando la lógica de la centralización de la nube.
-
 	-Nodos de redes sociales federadas.
 	-Servidores de archivos Propios como Owncloud.
 	-Telefonía VOIP para la organización.
-	-Diseño Web e implementación de páginas Web.
 	-Foros, blogs.
 	-Software de geolocalización y mapeo.
 	
