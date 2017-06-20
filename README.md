@@ -1,4 +1,4 @@
-# Disenso
+# Disenso Digital.
 
 
 Disenso es una consultoría especializada en tecnología y derechos humanos.
