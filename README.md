@@ -83,11 +83,11 @@ Trabajamos sobretodo con Software Libre, además de con software de Código abie
 	
 	Ofrecemos la instalación de servicios federados y bajo el control de las organizaciones, creando y 
 	cuestionando la lógica de la centralización de la nube.
-	-Nodos de redes sociales federadas.
-	-Servidores de archivos Propios como Owncloud.
-	-Telefonía VOIP para la organización.
-	-Foros, blogs.
-	-Software de geolocalización y mapeo.
+	
+	Nodos de redes sociales federadas.
+	Servidores de archivos Propios como Owncloud.
+	Foros y blogs.
+	Software de geolocalización y mapeo.
 	
 
 	
