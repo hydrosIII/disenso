@@ -1,9 +1,9 @@
 # Disenso
 
 
-Disenso es una consultoría especializada 
+Disenso es una consultoría especializada  en tecnología y derechos humanos.
 
-##Principios rectores: 
+## Principios rectores: 
 
 1- Creatividad.
 
@@ -11,15 +11,13 @@ Desarrolar soluciones nuevas a viejos problemas.
 
 2- Ética.
 El trabajo significativo.
-
 Derechos humanos: En específico el Artículo 19 en cuanto a libertad de Expresión de la carta de Derechos Humanos de 
 la ONU y su posterior desarrollo en el Derecho humano a Comunicar. 
 
 3- Educación continua.
 La innovación constante y el aprendizaje son fundamentales par nuestra organización. 
  
-4. Colectivo.
-
+4- Colectivo.
 
 ## Nuestra posición tecnológica.
 
@@ -55,7 +53,10 @@ información manejada y nos comprometemos a respetar la provicidad de las organi
 	ERP para las ONG que permite una mejor gestión de los recurso de la organización. 
 
 
-##Proyectos que nos respaldan.
+## Proyectos que nos respaldan.
 
 Rutasdelamemoria
 Calleslibres
+
+¿Algún proyecto que agregar de parte de uds?
+
