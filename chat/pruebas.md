@@ -84,3 +84,19 @@ https://es.wikipedia.org/wiki/Off_the_record_messaging
 
 - PGP ( este si puede ser usado en chats de varias personas pero no es tan obvio de usar).
 https://es.wikipedia.org/wiki/Pretty_Good_Privacy
+
+
+## Seguridad de la información transmitida.
+
+Toda la información entre clientes y servidor viene cifrada por TLS que es lo ms seguro. As que reo que no hay problema.
+
+En el chat sin OMEMO PGP u OTR, el texto se quedan guardadas en el servidor en la base de datos.  Esto no es mucho problema ya que el servidor es seguro y est bajo control de la organización. Sim embargo en el caso de un hackeo al servidor ( caso remoto pero posible) la info de los mensajes se podra encontrar sin cifrar.
+
+- soluciones. Vaciar la base de datos de mensajes, periodicamente.
+- Usar OMEMO, PGP  u OTR.
+
+COn las imagenes ya que se envian aparte, estas se guardan en otro directorio y permanecen allí, habría que implementar cifrado.
+
+
+Parece ser q conversations en Android, viene también con SQlite para guardar los datos, no se si tenga algún protocolo para cifrar con contraseña. Esto haría mas dificl el robar datos. Parece ser que chat secure si lo tiene. Hay que analizar la estrctura de seguridad de los clientes.
+
