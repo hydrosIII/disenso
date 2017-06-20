@@ -49,3 +49,38 @@ Este servidor promete ser fácil de configurar. No lo he checado.
 
 
 http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html
+
+
+
+## Documentos a consultar para la implementación de este servicio:
+
+### Servicios ya disponibles y sus defectos:
+
+https://ssd.eff.org/en/module/how-use-whatsapp-android
+https://www.eff.org/secure-messaging-scorecard
+
+### El caso de Signal.
+
+https://stackoverflow.com/questions/33699970/run-custom-textsecure-signal-server/34471995#34471995
+
+### XMPP.
+
+Pagína oficial:
+
+https://xmpp.org/
+
+Libro:
+https://oriolrius.cat/blog/wp-content/uploads/2009/10/Oreilly.XMPP.The.Definitive.Guide.May.2009.pdf
+
+### Implementaciones criptográficas.
+
+- Omemo. 
+
+https://es.wikipedia.org/wiki/Omemo
+
+- OTR. ( solo funciona para chats de 2 personas)
+
+https://es.wikipedia.org/wiki/Off_the_record_messaging
+
+- PGP ( este si puede ser usado en chats de varias personas pero no es tan obvio de usar).
+https://es.wikipedia.org/wiki/Pretty_Good_Privacy
