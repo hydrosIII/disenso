@@ -79,14 +79,29 @@ https://oriolrius.cat/blog/wp-content/uploads/2009/10/Oreilly.XMPP.The.Definitiv
 - Omemo. Es la más completa hasta ahora y la única que permite sincronización entre clientes. Sin embargo ahpra es muy dependiente de los cleintes, para la sincronización de mensajes. Depende mucho de que los clientes estén configurados adecuadamente.
 
 
+##### generalidades
 https://es.wikipedia.org/wiki/Omemo
+
+Auditoria: 
+https://conversations.im/omemo/audit.pdf
+
+#### problemas
+https://www.quora.com/Is-WhatsApp-encrypted-for-iPhone
+https://github.com/ChatSecure/ChatSecure-iOS/issues/376
+https://conversations.im/xeps/multi-end.html
+
 
 - OTR. ( solo funciona para chats de 2 personas) y solo entre 2 dispositivos.
 
 https://es.wikipedia.org/wiki/Off_the_record_messaging
 
+¿Cómo la implementa Telegram?
+
+https://core.telegram.org/api/end-to-end
+
 - PGP ( este si puede ser usado en chats de varias personas pero no es tan obvio de usar).
-https://es.wikipedia.org/wiki/Pretty_Good_Privacy, este no lo he probado.
+https://es.wikipedia.org/wiki/Pretty_Good_Privacy, este no lo he probado, pero no me parece práctico.
+
 
 
 ## Seguridad de la información transmitida.
