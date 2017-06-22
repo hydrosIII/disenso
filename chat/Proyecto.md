@@ -99,23 +99,23 @@ Toda la información entre clientes y servidor viene cifrada por TLS el estandar
 
 ### Desventajas y ventajas en cuanto a la seguridad digital del sistema de mensajera propuesto.
     
-- Desventajas
+#### Desventajas
 
-    Clientes no sincronizados cuando usen cifrado OTR. ( Es el caso por ejemplo de los chats secretos de Telegram que solo se 
+    - Clientes no sincronizados cuando usen cifrado OTR. ( Es el caso por ejemplo de los chats secretos de Telegram que solo se 
     pueden tener en un solo dispositivo)
-    La disponibilidad del servidor determina la disponibilidadl de servicio
-    0 days en el protocolo XMPP o el servidor XMPP. ( Este procolo tiene ms de 10 años y es auditiado por la IETF, por lo que se 
-    espera que este no  sea un riesgo importante)
+    - La disponibilidad del servidor determina la disponibilidadl de servicio
+    - 0 days en el protocolo XMPP o el servidor XMPP. ( Este procolo tiene más de 10 años en funcionamiento y es auditado por la IETF   
+    por lo que se espera que este no  sea un riesgo importante, además de que en todo caso tambin serían vulnerables las aplicaciones como Signal, Telegram o WhatsAPP)
 
-- Ventajas.
+#### Ventajas.
 
-    Cifrado cliente a cliente con OMEMO, el mismo cifrado usado por Signal y WhatsAPP.
-    Control sobre el servidor.
-    La Base de datos permanece bajo jurisdicción de la organización
-    El Control de la información  se queda en la organización.
-    Auditable en caso de duda.
-    Se pueden fincar responsabilidades legales, si se tiene evidencia de hackeo.
-    Se define un círculo de confianza dentro de la organización con las personas que tienen acceso a la información.
+    - Cifrado cliente a cliente con OMEMO, el mismo cifrado usado por Signal y WhatsAPP.
+    - Control sobre el servidor.
+    - La Base de datos permanece bajo jurisdicción de la organización
+    - El Control de la información  se queda en la organización.
+    - Auditable en caso de duda.
+    - Se pueden fincar responsabilidades legales, si se tiene evidencia de hackeo.
+    - Se define un círculo de confianza dentro de la organización con las personas que tienen acceso a la información.
 
 ### Seguridad en la organización.
 
