@@ -28,7 +28,7 @@ Es la fase final del proyecto, en donde nos aseguramos de capacitar a todo el pe
 ## Propuesta tecnológica.
 
 Se propone la siguiente arquitectura. El corazón del sistema de comunicaciones será un servidor  XMPP para la tranmisión de 
-mensajes de texto y voz, as como imagenes. XMPP es un estandard internacional reconocido por la IETF (Internet Engineering Task 
+mensajes de texto, voz y archivos como imagenes. XMPP es un estandard internacional reconocido por la IETF (Internet Engineering Task 
 Force), sobre las transmisiones de video, audio y chat por internet. Es un estandárd abierto y reconocido internacionalmente  
 como uno de los protocolos a ser usados globalmente en internet. Actualmente es usado en varios servicios de comunicación como 
 son Google Talk y el chat de Facebook. El nivel de seguridad de este estandar es máximo ya que lleva en uso ms de 10 años y se ha 
@@ -87,7 +87,7 @@ servidor sirva como un simple transmisor de comunicaciones y no queden guardados
 Este cifrado es equivalente al que ofrecen servicios como Telegram con el chat seguro y WhatsAPP con la implementación del 
 cifrado seguro. 
 
-Asimismo se capacitará al personal de la organización en el uso de estos cifrados,a saber OTR y OMEMO. 
+Asimismo se capacitará al personal de la organización en el uso de los cifradosque en este caso serian OTR y OMEMO. 
 
 Para los clientes en dispositivos Android se usará Conversations. Mientras que para clientes en equipos de Escritorios Gnu/linux y Windows se usar el cliente Gajim. No se recomienda el uso de dispotivos IOS por sus estándares de seguridad, sin embargo de haberlos se propondrá una solución para estos. 
 
