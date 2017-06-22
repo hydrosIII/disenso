@@ -85,6 +85,29 @@ Asimismo se capacitará al personal de la organización en el uso de estos cifra
 
 ## Podemos agregar mas info sobre cada uno de los cifrados, explicando mas a fondo como funcionan.
 
+## Seguridad de la información transmitida.
+
+Toda la información entre clientes y servidor viene cifrada por TLS el estandar de cifrado de internet (equivalente al https). Adicionalmente están disponibles otros dos tipos de cifrado END to END, es decir que la información va cifrada desde que el dispositivo de una persona lo envia, hasta que el dispositivo de laotra persona lo recibe. Esto tiene como consecuencia, que en el servidor no se guardan datos.
+
+## Desventajas y ventajas en cuanto a la seguridad digital del sistema de mensajera propuesto.
+    
+- Desventajas
+
+    Clientes no sincronizados cuando usen cifrado OTR. ( Es el caso por ejemplo de los chats secretos de Telegram que solo se 
+    pueden tener en un solo dispositivo)
+    La disponibilidad del servidor determina la disponibilidadl de servicio
+    0 days en el protocolo XMPP. ( Este procolo tiene ms de 10 años y es auditiado por la IETF, por lo que se espera que este no 
+    sea un riesgo importante)
+
+- Ventajas.
+
+    Cifrado cliente a cliente con OMEMO, el mismo cifrado usado por Signal y WhatsAPP. Permite grupos de chat.
+    Control sobre el servidor.
+    El Control de la información  se queda en la organización.
+    Auditable en caso de duda.
+    Se pueden fincar demandas legales, si se tiene evidencia de hackeo.
+    Se define un círculo de confianza dentro de la organización con las personas que tienen acceso a la información.
+
 ## Seguridad en la organización.
 
 Las medidas de seguridad a nivel protocolar, será la implementación y capacitación del personal no solamente en el uso del 
@@ -99,3 +122,10 @@ cantidad de personal sin necesidad de expandir la infraestructura. Los servidore
 audio y tranmisión de video. Por lo que contar con una infraestructura de comunicación sólida, puede extender las capacidades de 
 la organización a largo plazo.
 
+
+## Bibliografía.
+
+Internet Engineering Task Force, https://www.ietf.org/
+XMPP, https://xmpp.org/
+Electronic Frontier Foundation, Secure Messaging scorecard, https://www.eff.org/secure-messaging-scorecard, 13 junio 2017
+EFF, Surveillance self Defense, https://ssd.eff.org/ consultado 13 junio 2017
