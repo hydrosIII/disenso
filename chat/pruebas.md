@@ -120,18 +120,18 @@ Parece ser que conversations en Android, viene también con SQlite para guardar 
 
 ## Desventajas.
 
-Clientes no sincronizados cuando usen cifrado OTR.
-OMEMO no soportado en todos los clientes. 
-Si se cae el server se pierde el servicio
-Vulnerable a DDOS ( se solucina pagando protección DDOS)
-0 days en el servidor XMPP y el protocolo XMPP ( no se q tan probable sea esto, pero en todo caso habría que ver como mitigarlo, adems de q otras aplicaciones serían vulenables como WhatsAPP y Telegram, google Caht FB chat y practicamente todo internet, sin embargo, aquí es más susceptible debido a ataques dirigidos, Se puede implementar Security Trough Obscurity en este caso)
+- Clientes no sincronizados cuando usen cifrado OTR.
+- OMEMO no soportado en todos los clientes. 
+- Si se cae el server se pierde el servicio
+- Vulnerable a DDOS ( se solucina pagando protección DDOS)
+- 0 days en el servidor XMPP y/o el protocolo XMPP ( no se q tan probable sea esto, pero en todo caso habría que ver como mitigarlo, adems de q otras aplicaciones serían vulenables como WhatsAPP y Telegram, google Caht FB chat y practicamente todo internet, sin embargo, aquí es más susceptible debido a ataques dirigidos, Se puede implementar Security Trough Obscurity en este caso)
  
 ## Ventajas.
 
-Control sobre el servidor ( esta es la principal)
-Control de la información de la organización.
-Auditable.
-Dentro de la organización algunos tendrían acceso al server. Círculo de confianza.
+- Control sobre el servidor ( esta es la principal)
+- Control de la información de la organización.
+- Auditable.
+- Dentro de la organización algunos tendrían acceso al server. Círculo de confianza.
 
 
 ## Soluciones
