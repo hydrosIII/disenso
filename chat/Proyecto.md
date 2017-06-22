@@ -44,7 +44,7 @@ debe tener experiencia en el hosteo de ONGs dedicadas al activismo en derechos h
 
 - Definir las responsabilidades de la persona que posea la entrada a los datos del servidor.
 
-## Arquitectura del servidor.
+## Servidor XMPP.
 
 - Sistema Operativo Debian. 
 
@@ -72,8 +72,9 @@ fiabilidad del servicio.
 
 Un servidor minimalista diseñado para organizaciones pequeñas. El minimalismo contribuye también ala seguridad digital. Se usarán en todo momento certificados SSL.
 
+Estos requisitos pueden variar dependiendo del proyecto y de acuerdo a la información recolectada y los requerimientos de la organizaición.
 
-## Medidas de protección de los clientes.
+## Clientes ( Aplicaciones para celulares y Escritorio)
 
 Arquitectura de los clientes:
 
@@ -88,13 +89,15 @@ cifrado seguro.
 
 Asimismo se capacitará al personal de la organización en el uso de estos cifrados,a saber OTR y OMEMO. 
 
-## Podemos agregar mas info sobre cada uno de los cifrados, explicando mas a fondo como funcionan.
+Para los clientes en dispositivos Android se usará Conversations. Mientras que para clientes en equipos de Escritorios Gnu/linux y Windows se usar el cliente Gajim. No se recomienda el uso de dispotivos IOS por sus estándares de seguridad, sin embargo de haberlos se propondrá una solución para estos. 
 
-## Seguridad de la información transmitida.
+Estos requisitos pueden variar dependiendo del proyecto y de acuerdo a la información recolectada y los requerimientos de la organización.
+
+### Seguridad de la información transmitida.
 
 Toda la información entre clientes y servidor viene cifrada por TLS el estandar de cifrado de internet (equivalente al https). Adicionalmente están disponibles otros dos tipos de cifrado END to END, es decir que la información va cifrada desde que el dispositivo de una persona lo envia, hasta que el dispositivo de laotra persona lo recibe. Esto tiene como consecuencia, que en el servidor no se guardan datos.
 
-## Desventajas y ventajas en cuanto a la seguridad digital del sistema de mensajera propuesto.
+### Desventajas y ventajas en cuanto a la seguridad digital del sistema de mensajera propuesto.
     
 - Desventajas
 
@@ -114,13 +117,13 @@ Toda la información entre clientes y servidor viene cifrada por TLS el estandar
     Se pueden fincar responsabilidades legales, si se tiene evidencia de hackeo.
     Se define un círculo de confianza dentro de la organización con las personas que tienen acceso a la información.
 
-## Seguridad en la organización.
+### Seguridad en la organización.
 
 Las medidas de seguridad a nivel protocolar, será la implementación y capacitación del personal no solamente en el uso del 
 sistema, sino en la introducción a la autodefensa digital, por medio de incidir en las practicas tencologicas de la organización, 
 así como crear conciencia en cuanto a la prevención de ataques cibernéticos. A
 
-## Consideraciones adicionales. 
+### Consideraciones adicionales. 
 
 El sistema  de mensajería propuesto puede servir a nivel técnico para aumentar las capacidades de la organización para realizar 
 su trabajo, sin que se ceda el control de las comunicaciones a terceros. Asimismo, puede extenderse para manejar una buena 
