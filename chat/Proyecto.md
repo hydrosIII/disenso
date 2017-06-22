@@ -1,51 +1,39 @@
 
-Sistema de mensajería segura para Organizaciones Civiles de Protección de Derechos Humanos y Libertad de expresión.
+# Sistema de mensajería segura para Organizaciones Civiles de Protección de Derechos Humanos y Libertad de expresión.
 
-## Aqupi tenemos que documentar todo lo que ha sido reportado, del caso del espionaje y poner citas a los documentos de CITIZEN lab y otros.
+En el contexto de espeionaje que se vive hoy día en el internet  en contra de periodistas y activistas de distintas organizaciones de derechos humanos que ha sido comprobado por varias organizaciones como R3D, y Citizen Labs, la importancia de las telecomunicaciones digitales seguras se vuelve una cuestión crucial en el quehacer diario de periodistas y defensores de derechos humanos. Es indispensable contar con aplicaciones digitales de mensajería segura para asegurar la no intercepción de las comunicaciones por terceros. Es necesario asimismo que este sistema de mensajería sea auditable y que se encuentre en manos de la organización.Esto involucra varios retos tecnológicos y organizativos  cuando se plantea el despliegue de un sistema de comunicación seguro. 
 
-El el ámbito de los derechos humanos es indispensable contar con un sistema de mensajería segura para asegurar la no intercepción de las comunicaciones por terceras personas. Además de contar con un mayor nivel de control y seguridad. Esto involucra varios retos tecnológicos y organizativos  cuando se plantea el despliegue de un sistema de comunicación seguro. 
-
-El objetivo final del proyecto es conseguir un sistema de comunicación en chat multiplataforma que sea similar a los usados en otros servicios comerciales como son WhatsApp o Skype, dependiendo de las necesidades de la organización.
+En este caso se desarrolla una propuesta de un sistema de mensajera seguro, sus pros y sus contras. El objetivo final del proyecto es conseguir un sistema de comunicación en chat multiplataforma que sea similar a los usados en otros servicios comerciales como son WhatsApp o Telegram. Adaptándolo a las necesidades de comunicación y seguridad de la organización. 
 
 
-## Aquí tenemos que justificar, las fases humanas del proyecto de seguridad. 
+## Fases del proyecto:
 
-Fases del proyecto:
+- Fase de reconocimiento (2 semana):
 
-Fase de reconocimiento:
+Esta fase será implementada para conocer las necesidades de la organización y trabajar en un diseño técnico que se adecuado al tamaño, visión a largo plazo, y el propósito que la organización de Derechos Humanos tenga del sistema de comunicación. Sorebtodo identificar el nivel de vulenrabilidad de la organización. así como la sensibilidad de la información manejada por la organización. Por lo que se pedirán datos básicos, en cuanto al número de integrantes de la organización, los equipos de computo manejados, los celulares, y las prácticas de uso de la tencología. 
 
-Esta fase será implementada para conocer las necesidades de la organización y trabajar en un diseño técnico que se adecuado al tamaño, visión a largo plazo, y el propósito que la organización de Derechos Humanos tenga del sistema de comunicación.
+ - Fase de implementación y pruebas ( 3 semanas):
 
-Fase de implementación:
+Es sobretodo una fase técnica en donde se van a tener instalados y puestos a puntos los servicios tecnológicos que van a constituir el sistema de comunicación de acuerdo a  la información obtenida en la anterior fase. Se va a mostrar el prototipo del sistema de comunicación para la evaluación de este mismo desde el punto de vista del personal de la organización, dirigido a ver la usabilidad del mismo y la utilidad en el quehacer diario de la organización. Asimismo se estará abierto a las críticas que se le pudan hacer al sistema de mensajería.
 
-Es sobretodo una fase técnica en donde se van a tener instalados y puestos a puntos los servicios tecnológicos que van a constituir el sistema de comunicación de acuerdo a  la información obtenida en la anterior fase. 
+- Fase de reingeniería ( varia dependiendo de las críticas y los desarrollos recopilados durante la anterior fase):
 
-Fase de pruebas y retroalimentación:
+Se implementan las mejoras o modificaciones técnicas que en la medida de lo posible sugieran los miembros de la organización.
 
-Esta fase es una fase técnico-organizativa del proyecto, en donde se implementan una serie de pruebas, para probar que el sistema de comunicación sea el adecuado. Se hace la presentación y capacitación básica del sistema de comunicación y se reciben las críticas de los miembros de la organización. 
+- Fase de capacitación
 
-Fase de reingeniería:
+Es la fase final del proyecto, en donde nos aseguramos de capacitar a todo el personal tanto el uso  tecnológico del sistema de comunicación, como en la capacitación en seguridad digital a nivel protocolario y personal. Haciendo que sea integral la formación de la implementación del sistema de comunicación. El objetivo es integrar prácticas de autodefensa digital dentro de la organización. 
 
-Se implementan las mejoras o modificaciones que en la medida de lo posible sugieran los miembros de la organización.
 
-Fase de capacitación
+## Propuesta tecnológica.
 
-Es la fase final del proyecto, en donde nos aseguramos de capacitar a todo el personal tanto el uso  tecnológico del sistema de comunicación, como en la capacitación en seguridad digital a nivel protocolario y personal. Haciendo que sea integral la formación de la implementación del sistema de comunicación.
+Se propone la siguiente arquitectura. El corazón del sistema de comunicaciones será un servidor  XMPP para la tranmisión de mensajes de texto y voz, as como imagenes. XMPP es un estandard internacional reconocido por la IETF (Internet Engineering Task Force), sobre las transmisiones de video, audio y chat por internet. Es un estandárd abierto y reconocido internacionalmente  como uno de los protocolos a ser usados globalmente en internet. Actualmente es usado en varios servicios de comunicación como son Google Talk y el chat de Facebook. La implementación de un servidor que maneje las comunicaciones internas por chat de la organizacin tiene el objetivo de evitar la centralización de servicios de terceros como puede ser WhatsApp, además de asegurar que los datos sensibles permanezcan bajo control, legal y práctico de la organización. Para ello se sugieren las suguientes medidas:
 
-## aquí va toda la investigación que estamos haciendo. Justificando los pors y contras de la solucion de chat seguro. 
+- Contratar un servidor en un país que tenga un estandard alto de cumplimiento a los derechos humanos. Además de que el proveedor debe tener experiencia en el hosteo de ONGs dedicadas al activismo en derechos humanos. 
 
-Propuesta tecnológica.
+- Definir las responsabilidades de la persona que posea la entrada a los datos del servidor.
 
-Se propone la siguiente arquitectura. El corazón del sistema de comunicaciones será un servidor  XMPP para la tranmisión de mensajes de voz, video y texto.
-
-XMPP es un estandard internacional reconocido por la IETF (Internet Engineering Task Force
-), sobre las transmisiones de video, audio y chat por internet. Es un estandárd abierto y reconocido internacionalmente  como uno de los protocolos a ser usados globalmente en internet. Actualmente es usado en varios servicios de comunicación como son Google Talk y el chat de Facebook.
-
-Este servidor se sugiere que este en un país que tenga un estandard alto de cumplimiento a los derechos humanos. Greenhost es un buen proveedor.
-
-# Estas son las medidas que se van a tomar para proteger el servidor.
-
-Arquitectura del servidor.
+# Arquitectura del servidor.
 
 Sistema Operativo Debian. 
 Debian es una fundación en Alemania, que provee una de las distribuciones Linux mas viejas y conocidas del mundo. Esta organización es responsable de proyectos que apoyan la libertad de expresión como FreedomBox. Asimismo la estabilidad y seguridad de su sistema operativo son como pocos, gracias a los estándares abiertos y la estructura organizativa de la organización.
