@@ -39,6 +39,8 @@ web y el agregar usuarios se hace mediante comandos (una desventaja). Desconozco
 usar con este servidor para este fin. Me parece que el control de usuarios y quien usa el servidor es algo 
 fundamental en este proyecto, ya que así se puede garantizar la privacidad de las conversaciones. 
 
+Este server es fácil de configurar aunque carece de muchos módulos. EL minimalismo puede aportar también a la seguridad. Sin embargo no logré probar la interfaz web, pero pienso que para el proyecto es mejor poner algo del tamaño del proyecto, osea minimalista.
+
 Está escrito en Lua.
 
 Este servidor también viene incluido en Debian. 
@@ -74,16 +76,17 @@ https://oriolrius.cat/blog/wp-content/uploads/2009/10/Oreilly.XMPP.The.Definitiv
 
 ### Implementaciones criptográficas.
 
-- Omemo. 
+- Omemo. Es la más completa hasta ahora y la única que permite sincronización entre clientes. Sin embargo ahpra es muy dependiente de los cleintes, para la sincronización de mensajes. Depende mucho de que los clientes estén configurados adecuadamente.
+
 
 https://es.wikipedia.org/wiki/Omemo
 
-- OTR. ( solo funciona para chats de 2 personas)
+- OTR. ( solo funciona para chats de 2 personas) y solo entre 2 dispositivos.
 
 https://es.wikipedia.org/wiki/Off_the_record_messaging
 
 - PGP ( este si puede ser usado en chats de varias personas pero no es tan obvio de usar).
-https://es.wikipedia.org/wiki/Pretty_Good_Privacy
+https://es.wikipedia.org/wiki/Pretty_Good_Privacy, este no lo he probado.
 
 
 ## Seguridad de la información transmitida.
@@ -100,3 +103,25 @@ Con las imagenes, como se envian aparte, se guardan en otro directorio y permane
 
 Parece ser que conversations en Android, viene también con SQlite para guardar los datos, no sé si tenga algún protocolo para cifrar con contraseña. Esto haría más dificl el robar datos. Parece ser que chat secure sí lo tiene. Hay que analizar la estrctura de seguridad de los clientes.
 
+## Desventajas.
+
+Clientes no sincronizados cuando usen cifrado OTR.
+OMEMO no soportado en todos los clientes. 
+Si se cae el server se pierde el servicio
+Vulnerable a DDOS ( se solucina pagando protección DDOS)
+0 days en el servidor XMPP y el protocolo XMPP ( no se q tan probable sea esto, pero en todo caso habría que ver como mitigarlo, adems de q otras aplicaciones serían vulenables como WhatsAPP y Telegram, google Caht FB chat y practicamente todo internet, sin embargo, aquí es más susceptible debido a ataques dirigidos, Se puede implementar Security Trough Obscurity en este caso)
+ 
+## Ventajas.
+
+Control sobre el servidor ( esta es la principal)
+Control de la información de la organización.
+Auditable.
+Dentro de la organización algunos tendrían acceso al server. Círculo de confianza.
+
+
+## Soluciones
+
+Forzar usar el mismo cliente
+http://www.techspot.com/article/1365-run-android-apps-using-chrome/
+Usar Conversations en Desktop mediante Chrome.
+Configurar muy bien los desktops, Actualmente los cleintes de desktop salvo Gajim no vienen bien configurados. 
